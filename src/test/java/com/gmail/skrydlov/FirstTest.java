@@ -41,8 +41,6 @@ public class FirstTest {
         Assert.assertEquals("testfor00001@gmail.com", mailUser);
     }
 
-
-
     @AfterClass
     public static void tearDown() {
         WebElement exitButton = driver.findElement(By.xpath("//*[@id=\"gb_71\"]"));
